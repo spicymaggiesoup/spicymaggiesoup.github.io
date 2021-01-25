@@ -3,7 +3,7 @@ remote_theme: swanson/lagom
 
 # General Jekyll Config
 highlighter: rouge
-url: "http://soyoun.github.io"
+url: "http://spicymaggiesoup.github.io"
 baseurl: ""
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
