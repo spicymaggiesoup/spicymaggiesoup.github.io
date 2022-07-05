@@ -3,7 +3,7 @@ const path = require("path");
 const webpack = require("webpack");
 
 module.exports = {
-  entry: `${path.resolve(__dirname, "../src")}/index.tsx`,
+  entry: `${path.resolve(__dirname, "../index.tsx")}`,
   module: {
     rules: [
       {
@@ -15,7 +15,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: `${path.resolve(__dirname, "..")}/index.html`,
+      template: `${path.resolve(__dirname, "../index.html")}`,
     }),
     new webpack.ProvidePlugin({
       React: "react",
