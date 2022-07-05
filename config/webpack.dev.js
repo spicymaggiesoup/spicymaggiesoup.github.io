@@ -8,7 +8,7 @@ module.exports = merge(common, {
     open: false,
     hot: true,
     compress: true,
-    port: 8080,
+    port: 8888,
     historyApiFallback: true,
     liveReload: true,
   },
@@ -24,4 +24,4 @@ module.exports = merge(common, {
       },
     ],
   },
-})
+});
