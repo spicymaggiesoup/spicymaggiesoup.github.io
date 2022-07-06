@@ -1,2 +1,2 @@
-const App = () => { return <div>Hello World</div>; }
-export default App;
+import Main from './screens/Main';
+export default Main;
