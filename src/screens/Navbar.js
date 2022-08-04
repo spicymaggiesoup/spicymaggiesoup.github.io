@@ -1,12 +1,21 @@
 import React from 'react';
+import styled from "styled-components";
+
+const NavDiv = styled.div`
+  
+`;
 
 const Navbar = () => {
   return (
-    <navigator>
-      <div>
-        메뉴
-      </div>
-    </navigator>
+    <nav>
+      <NavDiv>
+        <ul>
+          <li>메뉴1</li>
+          <li>메뉴2</li>
+          <li>메뉴3</li>
+        </ul>
+      </NavDiv>
+    </nav>
   );
 };
 
