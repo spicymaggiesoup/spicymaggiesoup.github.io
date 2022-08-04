@@ -1,2 +1,2 @@
-import Main from './screens/Main';
-export default Main;
+import App from './screens/Main';
+export default App;
