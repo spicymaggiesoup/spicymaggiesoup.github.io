@@ -1,2 +1,2 @@
-import App from './screens/Main';
+import App from './screens/Home';
 export default App;

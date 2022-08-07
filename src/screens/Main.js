@@ -1,31 +1,20 @@
-import React, { useState } from 'react'
-import data from '../data/career'
-import List from '../components/List'
+import React from 'react';
+import styled from 'styled-components'
 
-import Header from './Header'
-import Navbar from './Navbar'
-import Body from './Body'
-import Footer from './Footer'
+const MainContainer = styled.main`
+  height:900px;
+`;
 
 const Main = () => {
-  // const [people, setPeople] = useState(data)
-  // return (
-  //   <main>
-  //     <section className='container'>
-  //       <h3>Cowkite Lee</h3>
-  //       <List people={people} />
-  //       <button onClick={() => setPeople([])}>clear all</button>
-  //     </section>
-  //   </main>
-  // )
   return (
     <>
-    <Header></Header>
-    <Navbar></Navbar>
-    <Body></Body>
-    <Footer></Footer>
+      <MainContainer>
+        <div className="container">
+            <pre>sdfadfasdffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</pre>
+        </div>
+      </MainContainer>
     </>
-  )
-}
+  );
+};
 
-export default Main
+export default Main;
