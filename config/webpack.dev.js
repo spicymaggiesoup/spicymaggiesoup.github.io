@@ -13,7 +13,8 @@ module.exports = merge(common, {
     liveReload: true,
   },
   output: {
-    filename: "[name].[contenthash].js",
+    // filename: "[name].[contenthash].js",
+    filename: "[name].js",
     publicPath: "/",
   },
   module: {

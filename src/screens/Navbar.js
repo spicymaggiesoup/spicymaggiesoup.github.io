@@ -9,7 +9,7 @@ const Navigation = styled.nav`
 const Navbar = () => {
   return (
     <Navigation>
-      <ul>Introduce</ul>
+      <ul>Profile</ul>
       <ul>Blog</ul>
       <ul>Resouces</ul>
     </Navigation>
