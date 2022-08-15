@@ -32,6 +32,9 @@ const Navbar = () => {
           <Route path="/Introduce" element={Introduce}></Route>
         </Routes>
       </Router>
+      <ul>Profile</ul>
+      <ul>Blog</ul>
+      <ul>Resouces</ul>
     </Navigation>
   );
 };
