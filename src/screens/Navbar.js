@@ -27,10 +27,12 @@ const Navbar = () => {
         <ul>Blog</ul>
         <ul>Resouces</ul>
 
+        {/**/}
         <Routes>
           <Route exact path="/" element={Home}></Route>
           <Route path="/Introduce" element={Introduce}></Route>
         </Routes>
+        
       </Router>
       <ul>Profile</ul>
       <ul>Blog</ul>
